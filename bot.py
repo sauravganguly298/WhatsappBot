@@ -52,7 +52,7 @@ if __name__ == '__main__':
     if(choice==3):
         exit(1)
     my_options = webdriver.ChromeOptions()
-    my_options.add_argument("user-data-dir=C:\\Users\\aman_\\AppData\\Local\\Google\\Chrome\\User Data\\Profile8")
+    my_options.add_argument("user-data-dir=C:\\Users\\saurav ganguly\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 4")
     browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=my_options)
     browser.get("https://web.whatsapp.com")
     browser.implicitly_wait(30)
